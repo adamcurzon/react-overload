@@ -67,7 +67,7 @@ function App() {
           <select id="increment"
             onChange={handleIncrementChange} >
             <option value="2.5">2.5</option>
-            <option value="5">5</option>
+            <option value="5" selected>5</option>
             <option value="7.5">7.5</option>
           </select>
         </div>
