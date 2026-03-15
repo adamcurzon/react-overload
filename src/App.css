@@ -1,46 +1,50 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .inputs {
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
-  gap: 1em;
-  border: 1px solid #6f6f6f;
-  padding: 2em;
-  border-radius: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1em;
+    border: 1px solid #6f6f6f;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.outputs {
+    margin-bottom: 150px;
 }
 
 .input_row {
-  width: inherit;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0px 2em;
+    width: inherit;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 2em;
 }
 
 .input_row label {
-  width: 50%;
+    width: 50%;
 }
 
 .input_row input,
 .input_row select {
-  width: 50%;
-  height: 25px;
-  padding: 2px;
+    width: 50%;
+    height: 25px;
+    padding: 2px;
 }
 
 table {
-  width: 100%;
-  text-align: left;
+    width: 100%;
+    text-align: left;
 }
