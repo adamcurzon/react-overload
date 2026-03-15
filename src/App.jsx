@@ -63,7 +63,6 @@ function App() {
 
     return (
         <>
-            <h2>React Overload</h2>
             <div className="inputs">
                 <div className="input_row">
                     <label htmlFor="rep_max">1 Rep Max</label>

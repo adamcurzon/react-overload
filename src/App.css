@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 #root {
     max-width: 1280px;
     margin: 0 auto;
@@ -15,14 +19,11 @@
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    gap: 1em;
+    gap: 5px;
     border: 1px solid #6f6f6f;
-    padding: 2em;
+    padding: 10px;
     border-radius: 10px;
-}
-
-.outputs {
-    margin-bottom: 150px;
+    margin-bottom: 20px;
 }
 
 .input_row {
@@ -30,7 +31,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 0px 2em;
+    padding: 0px 10px;
 }
 
 .input_row label {
@@ -47,4 +48,8 @@
 table {
     width: 100%;
     text-align: left;
+}
+
+h2 {
+    margin: 5px 0px;
 }
